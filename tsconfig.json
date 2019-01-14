@@ -16,6 +16,47 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@abi/*": [
+        "src/assets/contracts/*"
+      ],
+      "@service/*": [
+        "src/app/@service/*"
+      ],
+      "@model/*": [
+        "src/app/@model/*"
+      ],
+      "@pipe/*": [
+        "src/app/@pipe/*"
+      ],
+      "@factory/*": [
+        "src/app/@factory/*"
+      ],
+      "@deployer/*": [
+        "src/app/@deployer/*"
+      ],
+      "@contract/*": [
+        "src/app/@contract/*"
+      ],
+      "@error/*": [
+        "src/app/@error/*"
+      ],
+      "@shared/*": [
+        "src/app/shared/*"
+      ],
+      "@guard/*": [
+        "src/app/@guard/*"
+      ],
+      "@environment/*": [
+        "environments/*"
+      ],
+      "scui-lib": [
+        "../dist/scui-lib"
+      ],
+      "scui-lib/*": [
+        "../dist/scui-lib/*"
+      ]
+    }
   }
 }
