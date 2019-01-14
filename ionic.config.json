@@ -1,5 +1,7 @@
 {
   "name": "simpleico",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
